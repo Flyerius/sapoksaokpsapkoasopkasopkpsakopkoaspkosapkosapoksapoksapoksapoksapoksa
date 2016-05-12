@@ -1,0 +1,27 @@
+google.com/fonts
+hostnet.com.br
+
+Section - Sessão
+
+asside - Conteúdo lateral
+
+
+footer - rodapé
+
+ao usar uma class="NOME" no html como por exemplo <h1 class="sla" texto />
+
+no css sera usado, ou seja sempre tera um . depois da tag para definir a classe
+
+h1.sla {
+
+conteudo
+
+}
+
+height - altura
+
+width - largura
+
+border - borda
+
+mirovideoconverter.com - conversor de vídeos recomendado

@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="pt-br"> - LINGUAGEM E INICIO
+
+<head></head> - Conteúdo, programação em geral, especificações, título, configurações comportamentais
+
+
+<div></div> - divisoria do texto
+
+
+<hgroup></hgroup> - grupo para organizar seu texto, nada demais
+
+<img src=""> - puxar imagem de algum local
+
+<header></header> - cabeçalho
+
+<h1 2 3 4 5 6> - tamanho da letra - organização
+
+<br></br> - quebra de linha
+
+&nbsp; - espaço sem quebra de linha
+
+<body> - corpo
+
+<p> - organização e formatação(paragrafo)
+
+<wbr> - quebra de palavra caso diminua o tamanho do navegador, exemplo super-</wb>humano, ao diminuir o tamanho super fica numa linha e humano em outra(separação de sílabas, SEM hifenização).
+
+&shy; - quebra de palavra caso diminua o tamanho do navegador, exemplo super-&shy;humano, ao diminuir o tamanho super fica numa linha e humano em outra(separação de sílabas, COM hinfenização).
+
+&lt; = <
+
+&gt; = >
+
+&le; = menor ou igual a
+
+&ge; = maior ou igual a
+
+&pound; = libras
+
+&yen; = yenes
+
+&euro; = euro
+
+&copy; = copyright
+
+&reg; = marca registrada
+
+&trade; = trade mark
+
+&permil; = porcentagem de mil
+
+&sum; = soma
+
+&infin; = infinito
+
+&times; = mutiplicação
+
+&plusmn; = mais ou menos
+
+&oplus; = mais dentro de uma circunfêrencia
+
+&radic; = raiz quadrada
+
+&ne; = diferente
+
+&Delta; = delta
+
+&Lambda = lambda
+
+&omega; = omega
+
+&phi; = PY
+
+&larr; = seta para a esquerda
+
+&rarr; = seta pra direita
+
+&uarr; = seta para cima
+
+&darr; = seta pra baixa
+
+&harr; = seta para os dois lados
+
+&spades; = simbolo xadrez
+
+&clubs; = simbolo xadrez
+
+&hears; = simbolo xadrez
+
+&diamonds; = simbolo xadrez
+
+<b> = negrito
+
+<i> = italico
+
+<em> = enfase(destaca o texto em buscas), muito semelhante a italico
+
+<del> = texto riscado
+
+<span style="text-decoration: (algoaqui);"> - mudança do texto, decoração
+
+underline no span - sublinhado
+
+overline no span - linha acima da palavra
+
+line-trough no span - riscado
+
+none no span - nada
+
+<span style="font-weight: (algoaqui);"> - tamanho da fonte
+
+<hNUMERO style="text-align: tipodealinhamento"> - alinhamento
+
+<hNUMERO style="text-align: tipodealinhamento; text-indenty: tamanhodoalinhamento"> - alinhamento
+
+<sup> - sobre escrito assim como o ² ¹ e etc
+
+<sub> - sobre escrito pra baixo
+
+<code> - formatação de código de outras linguagens
+
+<pre> - pre formatado, todos os enters e espaços serão considerados.
+
+background-color(CSS) - cor de fundo
+
+color(CSS) - cor da letra
+
+background-image: url("arquivonapasta.extensão");(CSS) - imagem de fundo
+
+color: rgb(cor, cor, cor);(CSS) - pode ser encontrada no GRIMP
+
+color: rgba(cor, cor, cor, transparencia);(CSS) - cor com transparência
+
+background-color: hsl(numero, numero, numero)(CSS) - saturação, luminosidade etc
+
+
+background-color: hsla(numero, numero, numero, numero)(CSS) - saturação, luminosidade e etc com transparencia
+
+<figure> - melhora a busca por imagens em searchers
+
+<figcaption> - legenda de figura
+
+@charset "UTF-8"; - SEMPRE USAR NO COMEÇO DOS CSS
+
+<link rel="stylesheet" type="text/css" href="PASTA/arquivo.css"> - Linkar CSS ao HTML
+
+/* /* - legendas css
+
+padding(css) - preenchimento - ordem de px: cima, direita, baixo, esquerda
+
+box-sizing: border-box;(CSS) - box dentro da borda
+
+box-shadow(CSS) - box shadow
+
+transition: efeito de transição
+
+<nav> - barra de navegação
+
+<ol>(types = 1 numero, a = lista alfabetica, I = Lista romana) - lista ordenada
+
+<li> - lista de itens
+
+<ol type="" start="NUMERO QUE DESEJA STARTAR A LISTA">
+
+<ul> - lista não ordenada/com dermacadores
+
+<a> - ancora
+
+target="_blank" - forçar o link abrir em outra guia
+
+ list-style: none;(CSS) - remover bolinhas do <ul>
+
+text-transform: uppercase(CSS) - textos full maiusculo
+
+display: inline-block(CSS) - mostrar <li> na mesma linha
+
+paddin(CSS) - espaçamento
+
+margin(CSS) - tamanho fora do objeto/caixa
+
+tag#divsoria:hover(CSS) - ao passar o mouse
+
+text-decoration: none(CSS) - sem sublinhado
+
+<aside> - conteudo lateral
+
+<footer> - rodape
+
+<section> - sessão
+
+<tr> - table rows(linhas de tabela)
+
+<td> - table data
+
+<td rowspan="NUMERO"> - uma palavra oculpar mais tabelas, exemplo: http://prntscr.com/b23wrc
+
+<td colspan="NUMERO"> uma palavra oculpar mais espaço na mesma tabela. exemplo: http://prntscr.com/b23xoh
+
+
+margin(CSS) - area externa(fundo) ao objeto
+
+border-bottom: 1px #COR solid;(CSS) - Linha
+
+font-family: FONTE, sans-serif;(CSS) - familia de fonte para aquele contexto
+
+font-size: (CSS) -  tamanho da fonte
+
+padding(CSS) - espaçamento
+
+@font-face{
+    font-family: 'NomeDaFonte';
+    src: url("..//");
+} (CSS) - pode ser usado para definir fontes, o font-family no caso seria usado para funções especificas para definir a fonte apenas para um texto como por exemplo: font-family: 'FonteLogo', sans-serif
+
+@import url(https://fonts.googleapis.com/css?family=Titillium+Web); - importar fonte
+
+clear: both;(CSS) - limpar configurações, usar quando a body pegar todo o site, usar para footer
+
+font-weight: bolder;(CSS) - Bolder , italic etc
+
+class ="" = definir uma classe para alguma tag do html, exemplo <td class="ce"> , assim podendo usar no css algo especifico para apenas o CE e não para todos os tds, assim sobrepondo.
+
+<article> - artigo
+
+<script></script> - declarar que há uma script dentro do parametro
+
+alert("")(JS) - alerta
+
+ document.write("MSG"); (JSS) - Escreva na tela
+ 
+ document.write("MSG" + FUNÇÃO()); (JSS) - adiciona uma função a mensagem, o () é usado para indicar que é uma função
+ 
+ ()(JSS) - Parametro
+ {}(JSS) - codigo
+ 
+ onclick - ao clicar, pode se chamar uma função no html do js, como por exemplo = <img src="_imagens/lampada-apagada.jpg" onclick="acendeLampada()"/>
+ 
+ onmousemove - ao mover o mouse, pode se chamar uma função no html do js, como por exemplo = <img src="_imagens/lampada-apagada.jpg" onmousemove="acendeLampada()"/>
+ 
+ onmouseover - ao passar o mouse, pode se chamar uma função no html do js, como por exemplo = <li onmouseover="mudaFoto('_imagens/home.png')" >
+ 
+ onmouseout - ao tirar o mouse, pode se chamar uma funação html no js, como por exemplo = <li onmouseout="mudaFoto('_imagens/glass-oculos-preto-peq.png')">
+ 
+ <iframe src="arquivo.html"> - adiciona uma pagina em um quadro em outra página - exemplo: http://prntscr.com/b38xjs
+ 
+ 
+iTAG#ID::-webkit-scrollbar {
+    display: none;(CSS) - remove barra de rolagem
+	
+
+}
+
+overflow(CSS) - A propriedade overflow especifica o que acontece se o conteúdo transborda a caixa de um elemento.
+
+background: url("../_imagens/radio-tv.png") no-repeat;(CSS) - obtém-se uma imagem de um caminho sem repetições, para colocar repetições apenas retirar o "no-repeat"
+
+<audio ou video> <source src="CAMINHO" type="video/mp4 ou audio/mpeg"/> - pode se adicionar um audio ou video ao site, exemplo: 
+
+<audio id="musica" controls="controls">
+         <source src="_media/2009-lovers-carvings-bibio.mp3" type="audio/mpeg">
+       <source src="_media/2009-lovers-carvings-bibio.m4a" type="audio/xx-aac">
+       <source src="_media/2009-lovers-carvings-bibio.ogg" type="audio/ogg">
+       Desculpe, mas não foi possível carregar o áudio
+   </audio>
+    <video id="filme" name="filme" controls=" controls" poster="_imagens/video-mini03.jpg">
+ <source src="_media/getting-started.mp4" type="video/mp4"/>
+        <source src="_media/getting-started.webm" type="video/webm"/>
+        <source src="_media/getting-started.ogg" type="video/ogg"/>
+        Desculpe, mas não foi possível carregar o vídeo
+    </video>
+	
+<form> - formulário
+
+<fieldset> - conjunto de campos
+
+<legend> - legenda/título
+
+<input> - campo, o Input tem varios 'type=""', como text.
+
+syze no <input> - tamanho
+
+maxlenght e minlenght no <input> - numero minimo e maximo de caracteres
+
+placeholder no <input> - texto apagado no input.
+
+no <input> se houver por exemplo um campo de masculino e feminino usar o mesmo name="" para que só 1 campo possa ser selecionado
+
+<label> - etiqueta
+
+<label for="ID"> - se houver masculino e feminino por exemplo, não a necessidade de clicar na bolinha apenas no nome referente ao ID
+
+checked no <input> - faz com que algo ja venha marcado
+
+method="get ou post" - get(mais rápido e menos seguro dados adicionados a url) post(menos rápido e muito mais seguro)
+
+action="ação"
+
+<select> - caixa de seleção, como por exemplo de estado
+
+<option> - Opção
+
+value no <option> - valor a ser enviado
+
+<optgroup label="Nome"> - Definir descrição da option, não pode ser selecionada
+
+<datalist> = auto complemento(DEVE HAVER <option>'s dentro)
+
+type="range" - alcance
+
+step - passo/pulo
+
+<textarea> - caixa de texto
+
+cols no <textarea> - quantidade de colunas mostradas(SEM LIMITE)
+
+rows no <textarea> - quantidade de linhas mostradas(SEM LIMITE)
